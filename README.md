@@ -1,10 +1,12 @@
-cyrillic-colemak
+Russian & Ukrainian emacs input methods for Colemak users
 ================
 
-cyrillic-colemak input method for emacs
+If you use Colemak in X11 or Wayland and want to type in Russian or Ukrainian in Emacs, these input methods let you do that.
 
 
-installation
+Use
 ============
 
-Download the file, add `(load-file "~/.emacs.d/cyrillic-colemak.el")` into your `.emacs`.
+- Clone repo
+- Create symlinks (with `ln -s`) to the cloned repo's `.el` files in ~/.emacs.d
+- Add `(load-file "~/.emacs.d/cyrillic-colemak.el")` and or `(load-file "~/.emacs.d/ukrainian-colemak.el")` to your `.emacs` file
